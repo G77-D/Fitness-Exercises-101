@@ -17,14 +17,15 @@ const App = () => {
 				<Route path="/" element={<Home />} />
 				<Route path="/exercise/:id" element={<ExerciseDetail />} />
 			</Routes>
-			<footer />
+			<Footer />
 		</Box>
 	);
 };
 
-export default App;
+export default App 
 
 /* notes*/
 /* Box is div with colours  from material ui */
 /* sx= size and width on big and small screen*/
 /* m= which mean marign is auto*/
+/* rafv
